@@ -1,3 +1,9 @@
+body
+{
+    height:96vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 238, 255));
+}
+
 .bubble
 {
     margin: auto;
