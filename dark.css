@@ -135,7 +135,8 @@ a:active
 a.button
 {
     appearance: button;
-    background-color: #20192b;
+    /*background-color: #20192b;*/
     padding: 10px;
     border-radius: 10px;
+    background-image: linear-gradient(180deg, #453b55, #20192b);
 }
