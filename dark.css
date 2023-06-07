@@ -5,7 +5,11 @@ body
     font-family: 'Geologica', sans-serif;
     height: 2000px;
     background-image: linear-gradient(120deg, rgb(60, 45, 70), rgb(7, 27, 36));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0%;
+    /*I'm blind so I enlarged the tex :P*/
+    font-size: larger;
 }
 
 .menubar
@@ -23,7 +27,7 @@ body
     margin: auto;
     border-radius: 25px;
     color: azure;
-    width: 80%;
+    width: 60%;
 
     padding: 10px;
     margin-top: 20px;
@@ -41,7 +45,15 @@ body
     margin-top: 20px;
     text-align: center;
 
-    background-image: linear-gradient(to bottom right, #5cc0e7, #0247cf);   
+    background-image: linear-gradient(to bottom right, #5cc0e7, #0247cf);
+    vertical-align: top;
+}
+
+.subtext
+{
+    width: 300px;
+    margin: auto;
+    word-wrap: break-word;
 }
 
 .roundedimg
@@ -53,6 +65,7 @@ p
 {
     text-align: justify;
 }
+
 li
 {
     text-align: left;    
@@ -72,6 +85,16 @@ li
     border-radius: 10px;
     padding: 10px;
     transition-duration: 200ms;
+}
+
+#goplaces
+{
+    background-color: #440e3d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
 }
 
 #darkmode:hover
@@ -107,4 +130,13 @@ a:active
 {
     color: rgb(185, 50, 16);
     text-decoration: line-through;
+}
+
+a.button
+{
+    appearance: button;
+    background-color: #363636;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, #FFFFFF, #cccccc);
 }
