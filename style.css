@@ -137,4 +137,5 @@ a.button
     background-color: #E1E1F0;
     padding: 10px;
     border-radius: 10px;
+    background-image: linear-gradient(180deg, #FFFFFF, #cccccc);
 }
