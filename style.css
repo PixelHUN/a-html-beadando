@@ -50,8 +50,9 @@ body
 .subtext
 {
     width: 300px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin: auto;
+    word-wrap: break-word;
 }
 
 .roundedimg
