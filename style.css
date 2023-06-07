@@ -82,3 +82,29 @@ li
     padding: 10px;
     transition-duration: 200ms;
 }
+
+a:link 
+{
+    color: rgb(212, 233, 24);
+    font-size: larger;
+    text-decoration: none;
+    transition-duration: 100ms;
+}
+
+
+a:visited 
+{
+    color: rgb(116, 150, 36);
+}
+
+a:hover 
+{
+    color: rgb(241, 73, 171);
+    transition-duration: 100ms;
+}
+
+a:active 
+{
+    color: rgb(185, 50, 16);
+    text-decoration: line-through;
+}
