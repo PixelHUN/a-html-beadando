@@ -1,0 +1,12 @@
+.bubble
+{
+    margin: auto;
+    border-radius: 25px;
+    background-color: darkcyan;
+    color: azure;
+    width: 80%;
+
+    padding: 1px;
+    margin-bottom: 5px;
+    text-align: center;
+}
