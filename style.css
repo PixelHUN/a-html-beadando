@@ -85,6 +85,16 @@ li
     transition-duration: 200ms;
 }
 
+#goplaces
+{
+    background-color: #440e3d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+}
+
 #darkmode:hover
 {
     background-color: #5e1554;
@@ -96,7 +106,7 @@ li
 
 a:link 
 {
-    color: rgb(212, 233, 24);
+    color: rgb(0, 0, 0);
     font-size: larger;
     text-decoration: none;
     transition-duration: 100ms;
@@ -105,7 +115,7 @@ a:link
 
 a:visited 
 {
-    color: rgb(116, 150, 36);
+    color: rgb(0, 0, 0);
 }
 
 a:hover 
@@ -118,4 +128,12 @@ a:active
 {
     color: rgb(185, 50, 16);
     text-decoration: line-through;
+}
+
+a
+{
+    appearance: button;
+    background-color: #E1E1F0;
+    padding: 10px;
+    border-radius: 10px;
 }
