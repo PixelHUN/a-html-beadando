@@ -11,6 +11,7 @@ body
 .menubar
 {
     background-color: #0247cf;
+    background-image: linear-gradient(to bottom left, #3768c9, #0247cf);
     padding: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -29,6 +30,15 @@ body
     text-align: center;
 
     background-image: linear-gradient(to bottom right, #5cc0e7, #0247cf);
+}
+
+p
+{
+    text-align: justify;
+}
+li
+{
+    text-align: left;    
 }
 
 #cimkep
