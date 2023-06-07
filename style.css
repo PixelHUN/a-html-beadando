@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap');
+
 body
 {
-    height:96vh;
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 238, 255));
+    font-family: 'Geologica', sans-serif;
+    height: 100vh;
+    background-image: linear-gradient(to bottom left, rgb(236, 228, 241), rgb(118, 194, 230));
 }
 
 .bubble
 {
     margin: auto;
     border-radius: 25px;
-    background-color: darkcyan;
     color: azure;
     width: 80%;
 
@@ -16,7 +18,7 @@ body
     margin-top: 15px;
     text-align: center;
 
-    background-image: linear-gradient(to bottom right, #5cc0e7, #0247cf24);
+    background-image: linear-gradient(to bottom right, #5cc0e7, #0247cf);
 }
 
 #cimkep
