@@ -47,6 +47,13 @@ body
     vertical-align: top;
 }
 
+.subtext
+{
+    width: 300px;
+    overflow: hidden;
+    margin: auto;
+}
+
 .roundedimg
 {
     border-radius: 15px;
