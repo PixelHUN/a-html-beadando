@@ -120,17 +120,18 @@ a:visited
 
 a:hover 
 {
-    color: rgb(241, 73, 171);
+    color: rgb(61, 61, 61);
+    text-transform: uppercase;
     transition-duration: 100ms;
 }
 
 a:active 
 {
-    color: rgb(185, 50, 16);
+    color: rgb(22, 221, 22);
     text-decoration: line-through;
 }
 
-a
+a.button
 {
     appearance: button;
     background-color: #E1E1F0;
