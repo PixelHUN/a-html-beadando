@@ -1,1 +1,1 @@
-"# a-html-beadando" 
+Készítette: Mayer Dániel, Szép Tamás
