@@ -1,8 +1,8 @@
+// Ez olyan stupid hogy csak így megy 💀
 var darkmode = "VILÁGOS";
 darkmode = localStorage.getItem("darkus");
 if(localStorage.getItem("darkus") != null)
 {
-    console.log("im fucked");
     console.log(localStorage.getItem("darkus"));
     
     darkify();
